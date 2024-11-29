@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group >
+        <item
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Inbox" />
+        <item
+            android:icon="@android:drawable/checkbox_on_background"
+            android:title="Send Message" />
+    </group>
+    <item android:title="Support">
+        <menu>
+            <group>
+                <item
+                    android:icon="?attr/actionModeCopyDrawable"
+                    android:title="name" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

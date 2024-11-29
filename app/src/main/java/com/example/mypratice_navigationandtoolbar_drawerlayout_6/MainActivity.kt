@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         //將ToolBar和navigationView和navController綁定
         //這邊setupWithNavController()加載的第二個參數是drawerLayout，而非appBarConfiguration
         //不放drawerLayout只放navController也可以運作，但是toolBar的navigationIcon會被遮住
-        binding.materialToolbar.setupWithNavController(navController)
+        binding.materialToolbar.setupWithNavController(navController, binding.main)
         binding.navDrawerView.setupWithNavController(navController)
 
 

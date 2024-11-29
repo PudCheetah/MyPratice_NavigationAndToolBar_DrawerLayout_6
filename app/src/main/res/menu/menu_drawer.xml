@@ -1,19 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
-        android:id="@+id/fragmentA"
-        android:title="FlagA" />
-    <item
-        android:id="@+id/fragmentB"
-        android:title="FlagB" />
+    <item android:title="TypeA">
+        <menu>
+            <item
+                android:id="@+id/fragmentA"
+                android:icon="@drawable/baseline_3g_mobiledata_24"
+                android:title="FlagA" />
+            <item
+                android:id="@+id/fragmentB"
+                android:icon="@drawable/baseline_4g_mobiledata_24"
+                android:title="FlagB" />
+        </menu>
+    </item>
     <item
         android:id="@+id/fragmentC"
+        android:icon="@drawable/baseline_4g_plus_mobiledata_24"
         android:title="FlagC" />
-    <item
-        android:id="@+id/fragmentD"
-        android:title="FlagD" />
-    <item
-        android:id="@+id/fragmentE"
-        android:title="FlagE" />
+    <item android:title="TypeB">
+        <menu>
+            <item
+                android:id="@+id/fragmentD"
+                android:icon="@drawable/baseline_6_ft_apart_24"
+                android:title="FlagD" />
+            <item
+                android:id="@+id/fragmentE"
+                android:icon="@drawable/baseline_abc_24"
+                android:title="FlagE" />
+        </menu>
+    </item>
 </menu>
